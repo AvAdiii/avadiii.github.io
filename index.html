@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A V Aditya - Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="hero-section">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <img src="assets/profile.jpg" alt="A V Aditya" class="profile-pic">
+            <h1>A V Aditya</h1>
+            <p class="tagline">CSD Student at IIIT-Hyderabad</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <section id="about" class="card">
+            <h2>About Me</h2>
+            <p>I'm a passionate and dedicated student entering the CSD (5-Year B.Tech + MS) program at IIIT-Hyderabad, driven by a strong interest in filmmaking, video editing, and content creation. My academic journey has been defined by excellence—scoring 99.55 percentile in JEE Mains—and enriched by leadership roles and creative pursuits.</p>
+        </section>
+
+        <section id="birthplace" class="card">
+            <h2>My Birthplace - Gwalior</h2>
+            <div class="image-gallery">
+                <div class="gallery-item">
+                    <img src="assets/birthplace1.jpg" alt="Gwalior Fort" class="birthplaceimg">
+                    <p class="caption">The Historic Gwalior Fort</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/birthplace3.jpg" alt="Local Market" class="birthplaceimg">
+                    <p class="caption">Vibrant Local Markets</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/birthplace2.jpg" alt="Local Market" class="birthplaceimg">
+                    <p class="caption">Achleshwar Mandir</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="card">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>IIIT Hyderabad</h3>
+                <p>CSD Program (B.Tech + MS in Computer Science & Engineering) | 2024–2029</p>
+            </div>
+            <div class="education-item">
+                <h3>Father Agnel School, Noida</h3>
+                <p>High School (2012–2024) | Scored 94% in Boards</p>
+                <ul>
+                    <li>Head Boy (2022-2023)</li>
+                    <li>IT Ministry (2020-2022)</li>
+                    <li>Academic Ministry (2017-2020)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills" class="card">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item expert">
+                    <h3>Expert</h3>
+                    <ul>
+                        <li>Video Editing</li>
+                        <li>Graphic Design</li>
+                    </ul>
+                </div>
+                <div class="skill-item intermediate">
+                    <h3>Intermediate</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Social Media Management</li>
+                    </ul>
+                </div>
+                <div class="skill-item beginner">
+                    <h3>Beginner</h3>
+                    <ul>
+                        <li>C Programming</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="cv" class="card">
+            <h2>CV</h2>
+            <a href="assets/cv.pdf" class="cv-link" download>Download CV (PDF)</a>
+        </section>
+
+        <section id="text-analyzer" class="card">
+            <h2>Text Analyzer</h2>
+            <textarea id="textInput" rows="10" placeholder="Enter text (minimum 10000 words)..."></textarea>
+            <button onclick="analyzeText()">Analyze Text</button>
+            <div id="analysisResults"></div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

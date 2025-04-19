@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+    <style>
+      body { margin: 0; padding: 0; }
+    </style>
+  </head>
+  <body>
+    <a-scene>
+      <a-box position="0 0.5 -4" rotation="0 45 0" color="#4CC3D9"></a-box>
+
+      <!-- dodecahedron -->
+      <a-entity position="0 2 -4" geometry="primitive: dodecahedron; radius: 0.75" material="color: #F16745"></a-entity>
+
+        <!-- isosahedron -->
+      <a-entity position="0 3.25 -4" geometry="primitive: icosahedron; radius: 0.75" material="color: #7BC8A4"></a-entity>
+
+        <!-- tetrahedron -->
+      <a-entity position="0 4.5 -4" geometry="primitive: tetrahedron; radius: 0.75" material="color: #4CC3D9"></a-entity>
+
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+    </a-scene>
+    
+    <p>Use this AFrameJS <a href="https://aframe.io/docs/1.7.0/components/geometry.html" target="_blank">resource</a>. 
+        Submit your <rollnumber>.html page in your github.io page i.e. https://<yourdomain>.github.io/<rollnumber>.html and submit 
+          <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=vDsaA3zPK06W7IZ1VVQKHFzW4INMf2JMjyL9qPnlPbNUMkpZQkY1SlpKWUtQWTY5RVVNS0k2RFQyRi4u" target="_blank">here</a> </p>
+    </body>
+  </html>
